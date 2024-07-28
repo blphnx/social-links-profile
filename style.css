@@ -1,0 +1,76 @@
+@font-face{
+    font-family: inter ;
+    src: url("/assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: ; */
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: inter;
+  font-size: 14px;
+}
+.container {
+  height: 100vh;
+}
+.card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(0, 0%, 12%);
+  height: 550px;
+  width: 330px;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card img {
+margin-top: 10px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.card h1{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.location{
+    margin-bottom: 30px;
+    color: hsl(75, 94%, 57%);
+    font-weight: bold;
+}
+.desc{
+    margin-bottom: 30px;
+}
+.linkContainer{
+    display: flex;
+
+    flex-direction: column;
+    width: 90%;
+    list-style: none;
+}
+.linkContainer div{
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+font-weight: bold;
+justify-items: center;
+padding: 15px;
+margin-bottom: 15px;
+    background-color: hsl(0, 0%, 20%);
+    
+}
+
+.linkContainer div:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
